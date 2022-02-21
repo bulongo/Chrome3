@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#input-el {
+    min-width: 400px;
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: #5f9341;
+    outline: none;
+}
+
+
+button {
+    background-color: #5f9341;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    color: #eee;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#delete-btn {
+    border: 1px solid #5f9341;
+    background: white;
+    color: #5f9341;
+}
+
+#message-el {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 56%;
+    border-radius: 3px;
+    padding: 4px;
+    color: white;
+}
+
+#ul-el a{
+    text-decoration: none;
+    color: #5f9341;
+}
+
+#ul-el li {
+    list-style: none;
+    margin-top: 10px;
+}
