@@ -67,6 +67,7 @@ function render(anArray){
            <a target="_blank" href="${anArray[i]}">${anArray[i]}</a> 
             </li>
             `
+//add a button next to the leads and make delete if user wants to
         }
         ulEl.innerHTML = listItems
     }else{
